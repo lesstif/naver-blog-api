@@ -1,0 +1,31 @@
+{
+    "name": "lesstif/naver-blog-api",
+    "description": "Naver BLOG API for PHP Users.",
+    "type": "library",
+    "keywords": ["blog", "rest", "naver-blog", "naver-blog-apit"],
+    "require": {
+        "php": ">=7.1",
+        "ext-curl": "*",
+        "netresearch/jsonmapper": "^1.0",
+        "monolog/monolog": "~1.12",
+        "vlucas/phpdotenv": "~2.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": ">=5.7 <6",
+        "mockery/mockery": "^0.9.4",
+        "symfony/var-dumper": "^3.0"
+    },
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "KwangSeob Jeong",
+            "email": "lesstif@gmail.com",
+            "homepage": "http://lesstif.com/"
+        }
+    ],
+    "autoload": {
+        "psr-4" : {
+            "Lesstif\\NaverBlogApi\\" : "src"
+        }
+    }
+}
